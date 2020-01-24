@@ -6,8 +6,11 @@ import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.sql.Statement;
 import java.util.ArrayList;
+import java.util.Date;
 
 import org.testng.annotations.Test;
+
+import com.mysql.jdbc.ResultSetMetaData;
 
 public class SampleDBTest {
 	public static String airlines3;
@@ -22,7 +25,10 @@ public class SampleDBTest {
 	public static ArrayList list = new ArrayList();
 	public static ArrayList list2 = new ArrayList();
 	public static ArrayList list3 = new ArrayList();
-	@Test
+	public static Date time1=null;
+	public static Date time2=null;
+	
+
 	public static void bdTest() throws SQLException{
 		/* con = DriverManager.getConnection(
 				"jdbc:mysql://avileap-test.ckfsniqh1gly.us-west-2.rds.amazonaws.com:3306/AviLeap", "AviLeap_Read",
@@ -96,6 +102,13 @@ public class SampleDBTest {
 				System.out.println("count "+list2.size());
 			//	DBWrapper.dbConnectionClose();
 				con.close();
+	}
+	
+	public static void main(String args[]) throws SQLException {
+		//time1="2020-01-21 03:40:22.0";
+		
+		
+		
 	}
 	
 

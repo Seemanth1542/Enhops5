@@ -186,6 +186,7 @@ public class AV_2268_COBT_For_GMR_HYD_SG_User {
 				 		+ "<th style=\"width:25%\">COBT</th><th style=\"width:25%\">Off_Block_Time</th></tr>");
 			 if(cobtIsNotNull.size()>0) {
 			 ResultSet result6 = DBWrapper.Connect(SQL_Queries.strQuery_14,environment);
+			 for (int i = 1; i <= 1; i++) {
 				while (result6.next()){
 					
 					String str_LogID = result6.getString("Logid");	
@@ -194,7 +195,7 @@ public class AV_2268_COBT_For_GMR_HYD_SG_User {
 					String str_Off_Block_Time = result6.getString("Off_Block_Time");				
 					email_COBT_For_DIALCelebi_User6.append("<tr><td><b style=\"color:red;\">"+str_LogID+"</b></td><td><b style=\"color:red;\">"+str_FlightNumber_Arrival+"</b></td>"
 							+ "<td><b style=\"color:red;\">"+str_cobt+"</b></td><td><b style=\"color:red;\">"+str_Off_Block_Time+"</b></td></tr>");
-					}
+					}}
 	 }else {
 			email_COBT_For_DIALCelebi_User6.append("<tr><td colspan=\"5\"><b style=\"color:red;\" >No values found</b></td></tr>");
 

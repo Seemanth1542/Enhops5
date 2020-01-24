@@ -4,12 +4,12 @@
   <parameter name="Browser" value="Chrome"/>
   <test name="smoke-Tests(failed)">
     <classes>
-      <class name="enh.web.tests.ZestIOT_AV_2272_Verify_Pushback_Activities">
+      <class name="enh.web.tests.ZestIOT_AV_2268_Validate_Accuracy_of_COBT_For_GMR_HYD_SG_User">
         <methods>
-          <include name="test"/>
           <include name="afterTest"/>
+          <include name="test"/>
         </methods>
-      </class> <!-- enh.web.tests.ZestIOT_AV_2272_Verify_Pushback_Activities -->
+      </class> <!-- enh.web.tests.ZestIOT_AV_2268_Validate_Accuracy_of_COBT_For_GMR_HYD_SG_User -->
     </classes>
   </test> <!-- smoke-Tests(failed) -->
 </suite> <!-- Failed suite [smoke] -->
