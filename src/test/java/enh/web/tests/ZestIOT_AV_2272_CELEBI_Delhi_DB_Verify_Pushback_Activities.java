@@ -4,7 +4,7 @@ import org.testng.annotations.AfterTest;
 import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 
-import enh.db.cases.AV_2272_CELEBI_DELHI_Verify_Pushback_Activities;
+import enh.db.pages.AV_2272_CELEBI_DELHI_Verify_Pushback_Activities;
 import listeners.CustomListeners;
 import listeners.ExecutionStartEndListner;
 import utilities.GlobalUtil;

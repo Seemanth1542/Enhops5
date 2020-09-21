@@ -3,7 +3,7 @@ package enh.web.pages;
 import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
 
-import enh.db.cases.SQL_Queries;
+import enh.db.pages.SQL_Queries;
 import utilities.HtmlReportUtil;
 import utilities.KeywordUtil;
 

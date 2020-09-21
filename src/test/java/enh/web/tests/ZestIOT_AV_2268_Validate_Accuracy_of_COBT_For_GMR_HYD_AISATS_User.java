@@ -2,8 +2,9 @@ package enh.web.tests;
 
 import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
-import enh.db.cases.AV_2268_COBT_For_DIALCelebi_User;
-import enh.db.cases.AV_2268_COBT_For_GMR_HYD_AISATS_User;
+
+import enh.db.pages.AV_2268_COBT_For_DIALCelebi_User;
+import enh.db.pages.AV_2268_COBT_For_GMR_HYD_AISATS_User;
 import enh.web.pages.BflActivities;
 import enh.web.pages.DepartedFlights;
 import enh.web.pages.HomePage;

@@ -31,7 +31,7 @@ import org.apache.poi.xssf.usermodel.XSSFSheet;
 import org.apache.poi.xssf.usermodel.XSSFWorkbook;
 import org.testng.annotations.Test;
 
-import enh.db.cases.SQL_Queries;
+import enh.db.pages.SQL_Queries;
 import utilities.ConfigReader;
 import utilities.GlobalUtil;
 import utilities.Utility;

@@ -7,7 +7,7 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 import com.relevantcodes.extentreports.ExtentTest;
 import com.relevantcodes.extentreports.LogStatus;
 
-import enh.db.cases.SQL_Queries;
+import enh.db.pages.SQL_Queries;
 import utilities.HtmlReportUtil;
 import utilities.KeywordUtil;
 

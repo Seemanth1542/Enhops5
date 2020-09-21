@@ -3,7 +3,7 @@ package enh.web.tests;
 import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 
-import enh.db.cases.Bsspl;
+import enh.db.pages.Bsspl;
 import listeners.CustomListeners;
 import listeners.ExecutionStartEndListner;
 import utilities.ConfigReader;

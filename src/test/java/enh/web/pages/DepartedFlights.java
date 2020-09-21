@@ -13,7 +13,7 @@ import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebElement;
 import org.testng.asserts.SoftAssert;
 
-import enh.db.cases.SQL_Queries;
+import enh.db.pages.SQL_Queries;
 import utilities.HtmlReportUtil;
 import utilities.KeywordUtil;
 

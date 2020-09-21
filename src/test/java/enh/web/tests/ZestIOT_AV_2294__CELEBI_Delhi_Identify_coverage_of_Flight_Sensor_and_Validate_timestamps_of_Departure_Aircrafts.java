@@ -3,7 +3,7 @@ package enh.web.tests;
 import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 
-import enh.db.cases.AV_2294_Scheduled_And_Sensor_ATD_Delhi_CELEBI_User;
+import enh.db.pages.AV_2294_Scheduled_And_Sensor_ATD_Delhi_CELEBI_User;
 import listeners.CustomListeners;
 import listeners.ExecutionStartEndListner;
 import utilities.GlobalUtil;

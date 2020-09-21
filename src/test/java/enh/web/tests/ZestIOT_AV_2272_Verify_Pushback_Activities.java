@@ -4,8 +4,8 @@ import org.testng.annotations.AfterTest;
 import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 
-import enh.db.cases.AV_2268_COBT_For_GMR_HYD_SG_User;
-import enh.db.cases.AV_2272_Verify_Pushback_Activities;
+import enh.db.pages.AV_2268_COBT_For_GMR_HYD_SG_User;
+import enh.db.pages.AV_2272_Verify_Pushback_Activities;
 import listeners.CustomListeners;
 import listeners.ExecutionStartEndListner;
 import utilities.GlobalUtil;

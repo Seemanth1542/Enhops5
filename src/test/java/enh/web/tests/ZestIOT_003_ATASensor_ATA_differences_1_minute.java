@@ -4,7 +4,7 @@ import org.testng.annotations.DataProvider;
 import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 
-import enh.db.cases.DBTesting;
+import enh.db.pages.DBTesting;
 import listeners.CustomListeners;
 import listeners.ExecutionStartEndListner;
 import utilities.ConfigReader;

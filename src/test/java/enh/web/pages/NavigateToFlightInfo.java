@@ -4,7 +4,7 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
-import enh.db.cases.SQL_Queries;
+import enh.db.pages.SQL_Queries;
 import utilities.HtmlReportUtil;
 import utilities.KeywordUtil;
 

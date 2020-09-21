@@ -26,6 +26,7 @@ public class DriverUtil {
 	private static Map<String, WebDriver> drivers = new HashMap<>();
 	public static final WebDriver driver = null;
 	private static HashMap<String, String> checkLogin = new HashMap<>();
+	
 	/**
 	 * Used to getting browser(Chrome, IE, Firefox)
 	 * @param browserName

@@ -3,8 +3,8 @@ package enh.web.tests;
 import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 
-import enh.db.cases.DBTesting;
-import enh.db.cases.FlightNumber_Arrival_FlightNumber_DepartureComparison;
+import enh.db.pages.DBTesting;
+import enh.db.pages.FlightNumber_Arrival_FlightNumber_DepartureComparison;
 import listeners.CustomListeners;
 import listeners.ExecutionStartEndListner;
 import utilities.GlobalUtil;

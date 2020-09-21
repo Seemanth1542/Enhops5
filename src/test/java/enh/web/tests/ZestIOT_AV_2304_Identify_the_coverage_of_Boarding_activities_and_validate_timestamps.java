@@ -3,8 +3,8 @@ package enh.web.tests;
 import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 
-import enh.db.cases.AV_2293_Scheduled_And_Sensor_ATA_Hyd;
-import enh.db.cases.AV_2294_Scheduled_And_Sensor_ATD_Hyd;
+import enh.db.pages.AV_2293_Scheduled_And_Sensor_ATA_Hyd;
+import enh.db.pages.AV_2294_Scheduled_And_Sensor_ATD_Hyd;
 import listeners.CustomListeners;
 import listeners.ExecutionStartEndListner;
 import utilities.GlobalUtil;
